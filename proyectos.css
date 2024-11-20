@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background-color: #1a573a;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #1a573a;
+    padding: 0;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-height: 150px;
+}
+
+main {
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #1a573a;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.project-list li {
+    background-color: #e5efe8;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #1a573a;
+    border-radius: 5px;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.project-list li strong {
+    color: #1a573a;
+}
+
+footer {
+    background-color: #2c3330;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #3aa76d;
+}
+
+.main-link {
+    color: #3aa76d;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.main-link:hover {
+    color: white;
+}
